@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Google Sans', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #28a745;
+  color: white;
+}
+
+.payment-status-paid {
+  color: green;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+.notification {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+.notification.show {
+  display: block;
+}
